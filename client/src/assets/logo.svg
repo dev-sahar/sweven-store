@@ -1,0 +1,18 @@
+<svg width="6883" height="7969" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="7971" width="6885" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill-rule="nonzero" fill="#555555" id="svg_2" d="m2683,1892c0,979 666,1783 759,1891c93,-108 759,-912 759,-1891c0,-979 -666,-1783 -759,-1891c-93,108 -759,912 -759,1891z" class="fil0"/>
+  <path fill-rule="nonzero" fill="#555555" id="svg_3" d="m3442,7948c93,-108 760,-912 760,-1891c0,-979 -667,-1783 -760,-1891c-93,108 -759,912 -759,1891c0,979 666,1783 759,1891z" class="fil0"/>
+  <path fill-rule="nonzero" fill="#008080" id="svg_4" d="m6883,1988c-140,-27 -1169,-202 -2017,287c-848,490 -1211,1469 -1258,1603c140,27 1170,202 2017,-287c848,-490 1211,-1469 1258,-1603z" class="fil0"/>
+  <path fill-rule="nonzero" fill="#555555" id="svg_5" d="m6883,5961c-46,-135 -410,-1114 -1258,-1603c-847,-489 -1877,-315 -2017,-288c47,135 411,1114 1258,1603c848,490 1877,315 2017,288z" class="fil0"/>
+  <path fill-rule="nonzero" fill="#555555" id="svg_6" d="m1,5961c140,27 1170,202 2017,-288c848,-489 1211,-1468 1258,-1603c-140,-26 -1169,-201 -2017,288c-848,490 -1211,1469 -1258,1603z" class="fil0"/>
+  <path fill-rule="nonzero" fill="#555555" id="svg_7" d="m1,1988c47,134 410,1113 1258,1603c847,489 1877,314 2017,288c-47,-135 -410,-1114 -1258,-1603c-847,-490 -1877,-315 -2017,-288z" class="fil0"/>
+  <text id="svg_8" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif" font-weight="bold" font-size="5px" fill="#000000" y="7963" x="1">Created by Joni Ramadhan</text>
+  <text id="svg_9" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif" font-weight="bold" font-size="5px" fill="#000000" y="7968" x="1">from the Noun Project</text>
+ </g>
+</svg>

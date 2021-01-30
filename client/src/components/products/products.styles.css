@@ -1,0 +1,41 @@
+.products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  row-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto 50px auto;
+}
+
+.delete_all {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.delete_all input {
+  height: 25px;
+  width: 25px;
+  transform: translateY(5px);
+  margin: 0 15px;
+}
+
+.delete_all span {
+  text-transform: uppercase;
+  color: rgb(3, 165, 206);
+  letter-spacing: 1.3px;
+  margin-right: 20px;
+}
+
+.delete_all button {
+  border: 1px solid crimson;
+  padding: 10px 25px;
+  color: crimson;
+  text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  .delete_all button {
+    margin: 10px 20px 0 0;
+  }
+}

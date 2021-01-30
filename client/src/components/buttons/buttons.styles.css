@@ -1,0 +1,31 @@
+.row_btn {
+  width: 95%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.row_btn a {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 6px;
+}
+
+.buy_btn,
+.delete_btn {
+  background: #555;
+  margin: 5px 0;
+  margin-bottom: 15px;
+}
+
+.view_btn,
+.edit_btn {
+  background: teal;
+  margin: 5px 0;
+}

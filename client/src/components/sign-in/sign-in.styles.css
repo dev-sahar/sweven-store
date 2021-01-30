@@ -1,0 +1,57 @@
+.sign_in {
+  max-width: 500px;
+  border: 2px solid rgb(3, 165, 206);
+  border-radius: 5px;
+  padding: 30px;
+  margin: 50px auto;
+}
+
+.sign_in h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.sign_in h5 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.sign_in form input,
+.sign_in form button {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 5px;
+  outline: rgb(3, 165, 206);
+  border: 1px solid rgb(3, 165, 206);
+}
+
+.sign_in form .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign_in form button {
+  width: 150px;
+  background: rgb(3, 165, 206);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sign_in form a {
+  color: orange;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  .sign_in {
+    padding: 30px 15px;
+  }
+}

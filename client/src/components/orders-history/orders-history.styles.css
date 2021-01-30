@@ -1,0 +1,105 @@
+.history {
+  overflow-x: auto;
+}
+
+.history h2,
+h4 {
+  text-align: center;
+  margin: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.history table {
+  margin: auto;
+  width: 100%;
+}
+
+.history table,
+th,
+tr,
+td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+/* Zebra striping */
+tbody tr:nth-of-type(odd) {
+  background: #eee;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+table a {
+  color: rgb(3, 165, 206);
+}
+
+.history img {
+  width: 70px;
+  height: 100px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+    word-wrap: break-word;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  /*
+	Label the data
+	*/
+  td:nth-of-type(1):before {
+    font-weight: bold;
+    content: 'Payment Id';
+  }
+  td:nth-of-type(2):before {
+    font-weight: bold;
+    content: 'Purchase Date';
+  }
+  td:nth-of-type(3):before {
+    content: '';
+  }
+}
