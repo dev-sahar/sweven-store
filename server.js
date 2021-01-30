@@ -6,6 +6,8 @@ import fileUpload from 'express-fileupload';
 import cookieParser from 'cookie-parser';
 import morgan from 'morgan';
 import cloudinary from 'cloudinary';
+import compression from 'compression';
+import enforce from 'express-sslify';
 
 import connectDB from './config/db.js';
 
