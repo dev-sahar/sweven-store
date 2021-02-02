@@ -1,6 +1,6 @@
 .product_card {
   min-width: 250px;
-  width: 22vw;
+  width: 280px;
   overflow: hidden;
   min-height: 300px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);

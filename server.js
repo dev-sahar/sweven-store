@@ -23,7 +23,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-process.env.NODE_ENV === 'development' && dotenv.config();
+process.env.NODE_ENV !== 'production' && dotenv.config();
 
 cloudinary.v2.config({
   cloud_name: process.env.CLOUD_NAME,
@@ -46,7 +46,7 @@ app.use(
 );
 
 // Logger
-process.env.NODE_ENV === 'development' && app.use(morgan('dev'));
+process.env.NODE_ENV !== 'production' && app.use(morgan('dev'));
 
 // Connect to MongoDB
 connectDB();
